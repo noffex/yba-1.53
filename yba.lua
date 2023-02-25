@@ -45,21 +45,17 @@ Section:NewButton("RemoteSpy", "Menu for debugging", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/MXHPVjFP"))()
 end)
 
-
 -- CMD
 Section:NewButton("CMD-x", "Menu for debugging", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
 end)
 
-
 local Section = Tab:NewSection("More")
-
 
 -- Lag
 Section:NewButton("Antilag", "Antilag", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Revan-Studios/Roblox-Anti-Lag/main/antilag.lua', true))()
 end)
-
 
 -- TP
 Section:NewButton("ClickTPTool", "ClickTPTool", function()
