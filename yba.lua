@@ -54,7 +54,7 @@ local Section = Tab:NewSection("More")
 
 -- Lag
 Section:NewButton("Antilag", "Antilag", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Revan-Studios/Roblox-Anti-Lag/main/antilag.lua', true))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/1dXmmH9Y', true))()
 end)
 
 -- TP
