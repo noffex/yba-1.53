@@ -62,6 +62,11 @@ Section:NewButton("ClickTPTool", "ClickTPTool", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/8RuRza5j', true))()
 end)
 
+-- chat
+Section:NewButton("ChatBypassGui", "ChatBypassGui", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv2'),true))()
+end)
+
 -- Dis
 local Tab = Window:NewTab("Discord Server")
 
