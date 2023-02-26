@@ -63,7 +63,7 @@ Section:NewButton("ClickTPTool", "ClickTPTool", function()
 end)
 
 -- UzuKee
-Section:NewButton("ChatBypassGui", "ChatBypassGui", function()
+Section:NewButton("UzuKee name)", "Change ur name to UzuKee", function()
     loadstring(game:HttpGet(('https://github.com/noffex/yba-1.53/blob/main/UzuKeeTroll.lua'),true))()
 end)
 
