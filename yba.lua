@@ -67,6 +67,11 @@ Section:NewButton("ChatBypassGui", "ChatBypassGui", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv2'),true))()
 end)
 
+-- UzuKee
+Section:NewButton("ChatBypassGui", "ChatBypassGui", function()
+    loadstring(game:HttpGet(('https://github.com/noffex/yba-1.53/blob/main/UzuKeeTroll.lua'),true))()
+end)
+
 -- Dis
 local Tab = Window:NewTab("Discord Server")
 
